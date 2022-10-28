@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+set(-DCMAKE_TOOLCHAIN_FILE=D:/DevEnv/vcpkg/scripts/buildsystems/vcpkg.cmake)
+project(learnav)
+add_subdirectory(dependencies)
+add_subdirectory(encode_video)
